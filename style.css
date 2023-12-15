@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+
+body{
+    margin: 0px;
+    font-family: "Montserrat", sans-serif;
+    background-color: #fefefe;
+    max-width: 1600px;
+    min-width: 1500px;
+}
+.main{
+    padding: 0;
+    margin: 0px 435px 0px 430px;
+    width: 43%;
+    float: none;
+}
+.right-main{
+    background-color: #efefef;
+    height: 920px;
+    width: 15%;
+    float: right;
+    margin: 0px 185px 0px 0px;
+}
+.left-main{
+    background-color: white;
+    height: 900px;
+    width: 15%;
+    float: left;
+    margin: 0px 0px 0px 185px;
+}
+.header, .vertical_align_fix{
+    background-color: #dbdbdb;
+}
+#logo{
+    text-decoration: none;
+    color:hsl(0, 0%, 25%);
+    font-size: 26px;
+}
+.header img {
+    overflow: clip;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0px;
+    margin-top: -22px;
+}
+.vertical_align_fix{
+    margin: 0;
+    height: 49px;
+    width: 100%;
+    float: left;
+}
+.header a{
+    margin: 0px 0px 0px 263px;
+}
+.box{
+    background-color: #eee;
+    width: 250px;
+    height: 45px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 25px;
+    margin: 5px 200px 5px -110px;
+    float: right;
+}
+input{
+    width: 240px;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 18px;
+}
+.fa-solid:hover{
+    color: orangered;
+    cursor: pointer;
+}
+.menu-bar{
+    background-color: hsl(0, 0%, 25%);
+    text-align: center;
+    font-weight: 550;
+    font-size: 16px;
+    margin-top: 49px;
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    color: white;
+}
+.menu-bar ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 18px;
+    display: block;
+    text-align: left;
+}
+.active, .menu-bar ul li:hover{
+    background: hsl(0, 0%, 50%);
+}
+.sub-menu-1{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background:hsl(0, 0%, 65%);
+}
+.menu-bar ul li:hover .sub-menu-1 ul{
+    display: block;
+    margin: 0px;
+}
+.menu-bar ul li:hover .sub-menu-1 li{
+    width: 200px;
+    padding: 0px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child{
+    border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover{
+    background: hsl(214, 68%, 60%);
+}
+/*.sub-menu-2{
+    display: none;
+}
+.hover-me:hover .sub-menu-2{
+    position: absolute;
+    display: block;
+    margin-top: -55.6px;
+    margin-left: 200px;
+    background:hsl(0, 0%, 65%);
+}*/
+.menu-2{
+    background-color: #dbdbdb;
+    text-align: left;
+    font-weight: 550;
+    font-size: 15px;
+    width: 100%;
+    border-radius: 7px;
+    padding: 0px 0px 0px 0px;
+    margin: 12px auto;
+    float: left;
+}
+.menu-2 ul{
+    display: block;
+    list-style: none;
+    padding: 0px;
+    margin: 0px 0px 0px 0px;
+}
+.menu-2 ul li a{
+    color: black;
+    text-decoration: none;
+    padding: 13px;
+    display: block;
+    text-align: left;
+}
+.menu-2 ul li:hover{
+    background: hsl(0, 0%, 60%);
+}
+.video, .gympsy, .toplist{
+    background-color: #f1f1f1;
+    width: 90%;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 7px;
+    padding: 0px 0px 2px 0px;
+    margin: 10px auto 10px auto;
+    text-align: center;
+    text-decoration: none;
+}
+.gympsy a:hover{
+    color: blue;
+}
+#count{
+    padding: 12px 0px 0px 0px;
+    margin-bottom: -2px;
+}
+.potvrdenie, .potvrdenie a:hover{
+    margin: -5px 0px -10px 0px;
+    font-size: 10pt;
+    color: blue;
+}
+h4{
+    background: hsl(0, 0%, 25%);
+    color: #f1f1f1;
+    padding: 8px 0px 8px 0px;
+    margin: 5px;
+    border-radius: 7px;
+    font-weight: 600;
+    font-size: 15px;
+}
+.plagat, .plagat img{
+    text-align: center;
+    padding-bottom: 5px;
+}
+h2, h3{
+    border-radius: 5px;
+    padding: 5px 1px 5px 1px;
+    margin: 3px;
+    background-color: #eee;
+}
+.inner{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    background: #eee
+    
+}
+.outer{
+    border-width: 1px;
+    border-style: outset;
+    border-radius: 3px;
+    margin: 10px 0px 10px 0px;
+    padding: 5px;
+    background: #fff;
+}
+.content p{
+    font-size: 15px;
+}
+.content a, h5{
+    color: rgb(227, 57, 57);
+    font-weight: 550;
+}
+.content img{
+    margin: 0px auto;
+    display: block;
+    padding: 15px;
+}
+.ziacka_rada td{
+    padding: 4px;
+}
+.prijimacie_skusky td{
+    padding: 4px;
+    text-align: center;
+}
+.prijimacie_skusky td a:hover, a:hover{
+    color: rgba(255, 0, 0, 0.6)
+}
+.gallery{
+    display: inline-block;
+    border: 1px solid hsl(0, 0%, 60%);
+    margin: 5px;
+    width: 199px;
+}
+.gallery:hover{
+    border: 1px solid hsl(0, 0%, 20%);
+}
+.gallery img{
+    width: 100%;
+    height: auto;
+    max-width: 170px;
+}
